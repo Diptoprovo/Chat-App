@@ -6,7 +6,7 @@ import { AppContext } from "../context/AppContext";
 
 
 import io from 'socket.io-client'
-const ENDPOINT = 'http://localhost:4000';
+const ENDPOINT = 'https://chat-app-backend-c88f.onrender.com';
 var socket, selectedChatCompare;
 
 
