@@ -347,14 +347,14 @@ const WhatsAppClone = () => {
     }, [userData]);
 
     useEffect(() => {
-        const c = 1;
+        //const c = 1;
         socket.on('message received', (newMessageReceived) => {
             if (!selectedChatCompare || selectedChatCompare !== newMessageReceived.chat._id) {
-                if (c > 0) {
-                    toast.info(`Message ${newMessageReceived.chat.isGroupChat ? ('in ' + newMessageReceived.chat.chatName) : ('from ' + newMessageReceived.sender.name)}`);
-                    //console.log("hre");
-                    c--;
-                }
+                // if (c > 0) {
+                //     toast.info(`Message ${newMessageReceived.chat.isGroupChat ? ('in ' + newMessageReceived.chat.chatName) : ('from ' + newMessageReceived.sender.name)}`);
+                //     //console.log("hre");
+                //     c--;
+                // }
             } else {
                 setMessages([...messages, newMessageReceived]);
             }
