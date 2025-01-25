@@ -15,7 +15,7 @@ const port = process.env.port || 4000;
 const server = createServer(app);
 connectDB();
 
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['https://chat-app-fr.onrender.com']
 
 app.use(express.json());
 app.use(cookieParser());
