@@ -35,6 +35,7 @@ const NavBar = () => {
                             <div className='absolute bg-transparent pt-10 hidden group-hover:block top-0 right-0 z-10 text-slate-200 rounded bg-gray-900'>
                                 <ul className='list-none m-0 p-2 bg-gray-900'>
                                     <li onClick={logout} className='py-1 px-2 cursor-pointer pr-14 hover:bg-gray-600'>Logout</li>
+                                    <li className='py-1 px-2 cursor-pointer pr-14 hover:bg-gray-600'><a href="https://github.com/Diptoprovo/">Github</a></li>
                                 </ul>
                             </div>
                         </div>)
