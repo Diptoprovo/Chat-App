@@ -10,5 +10,3 @@ Features:
 
 
 
-Only admin can add or remove users while any user can edit the name of group
-
